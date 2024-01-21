@@ -1,0 +1,50 @@
+
+#img1 {
+   float: left;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+.hinana {
+  float: right;
+  margin-right: 10px;
+}
+.div1 {
+  border: 3px solid;
+  display: flow-root;
+
+}
+.div2 {
+  border: 2px solid;
+  height: 80px;
+  overflow: scroll;
+  overflow-clip-margin: 100px;
+}
+.div4 {
+
+  background-color: red;
+ width: 100px;
+  height: 100px;
+  display: block;
+}
+span{
+  background-color: orange;
+  width: 100px;
+  height: 100px;
+  display: block;
+}
+.container {
+  background-color: black;
+}
+.div5 {
+  border: 2px solid;
+  height: auto;
+  width: 50%;
+  float: left;
+  padding: 25px;
+  box-sizing: border-box;
+}
+#id1 {
+  height: 200px;
+  width: 200px;
+  background-color: lightgreen  ;
+}

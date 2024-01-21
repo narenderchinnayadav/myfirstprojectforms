@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="favaconimage" href="favacon1.png" />
+    <title>borcode</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>parctice html</h1>
+    <pre>
+The AGP report shows data measured bycontinuous
+    glucose monitoring (CGM) in a standardized visual
+
+    format, providing a comprehensive overview of the 
+    glucose profile for a person with diabetes.1-4 This 
+
+    can help give people with diabetes and their healthcare
+     professionals 
+
+    better understanding of glucose levels and acts as a tool to 
+    support shared decisionmaking.1-4</pre
+    >
+    <a href="https://www.google.co.in/" target="_blank" title="goes to google"
+      >click Me</a
+    >
+    <p>Try Google Cloud with free usage of over 20 credits on signup.</p>
+
+    <a href="https://en.wikipedia.org/wiki/Dog">
+      <img src="dog1.jpg" height="200px" alt="dog image" />
+    </a>
+    <br />
+    <img src="dog2.jpg" height="200px" alt="dog image" title="this is puppy" />
+
+    <h2>this is the viedo songs</h2>
+    <audio controls sound>
+      <source src="salar1.mp3" />
+    </audio>
+    <br />
+    <audio controls>
+      <source src="salar2.mp3" />
+    </audio>
+
+    <video controls>
+      <source src="viedo1.mp3" />
+    </video>
+
+    <p>this is the normal text</p>
+    <p>this is the <b>bold</b> text</p>
+    <p>this is the <u>underline </u> text</p>
+    <p>this is the <i>italic</i> text</p>
+    <p>this is the <del>deleted</del> text</p>
+    <p>this is the <big>big</big> text</p>
+    <p>this is the <small>small</small> text</p>
+    <p>this is the <sub>supscript</sub> text</p>
+    <p>this is the <sub>superscript</sub>text</p>
+    <p>this is the normal text</p>
+    <p>this is the <mark>highlet</mark> text</p>
+
+    <h1>
+      <span style="background-color: tomato"> this is the span text</span>
+    </h1>
+    <h1>
+      <div style="background-color: lightgreen">this is the div text</div>
+    </h1>
+
+    <pre>Paragraphs are the building blocks of papers. 
+      Many students define paragraphs in terms of length: 
+      a paragraph is a group of at <span style="background-color: tomato;">least five sentences, 
+      a paragraph is half a page long, etc. 
+      In reality, though, the unity and coherence of 
+      ideas among sentences is what constitutes a paragraph.</span></pre>
+
+    <pre>Paragraphs are the building blocks of papers. 
+        Many students define paragraphs in terms of length: 
+        a paragraph is a group of at <div style="background-color: lightgreen;">least five sentences, 
+        a paragraph is half a page long, etc. 
+        In reality, though, the unity and coherence of 
+        ideas among sentences is what constitutes a paragraph.</div></pre>
+
+    <!-- unordered list   ordered list    description list -->
+
+    <!--  unordered list  -->
+
+    <ul>
+      <li>milk</li>
+      <li>bread</li>
+      <li>egg</li>
+      <li>meet</li>
+      <li>coffee supplier</li>
+      <ul>
+        <li>coffe maker</li>
+        <li>coffe clener</li>
+        <li>coffe buyer</li>
+      </ul>
+    </ul>
+
+    <!--  ordered list-->
+    <ol>
+      <li>go to school</li>
+      <li>went to house</li>
+      <li>lesiten the class</li>
+    </ol>
+
+    <!--  description list-->
+    <dl>
+      <dt><span style="color: green">mango</span></dt>
+      <dd>
+        Mango is the national fruit of India which is loved by one and all.
+      </dd>
+      <dt><span style="color: red"> apple</span></dt>
+      <dd>Apple is a sweet and delicious fruit that is very healthy</dd>
+    </dl>
+
+    <h2>table</h2>
+    <table border="1" style="background-color: black">
+      <tr align="center" style="background-color: lightgreen">
+        <th width="100">sunday</th>
+        <th width="100">monday</th>
+        <th width="100">tuesday</th>
+        <th width="100">wednesday</th>
+        <th width="100">thursday</th>
+        <th width="100">friday</th>
+        <th width="100">saturday</th>
+      </tr>
+      <tr align="center" style="background-color: azure">
+        <td>closed</td>
+        <td>9-5</td>
+        <td>9-5</td>
+        <td>10-5</td>
+        <td>203.5</td>
+        <td>12532</td>
+        <td>12532</td>
+      </tr>
+      <tr align="center" style="background-color: azure">
+        <td>closed</td>
+        <td>9-5</td>
+        <td>9-5</td>
+        <td>10-5</td>
+        <td>203.5</td>
+        <td>12532</td>
+        <td>12532</td>
+      </tr>
+      <tr align="center" style="background-color: azure">
+        <td>closed</td>
+        <td>9-5</td>
+        <td>9-5</td>
+        <td>10-5</td>
+        <td>203.5</td>
+        <td>12532</td>
+        <td>12532</td>
+      </tr>
+    </table>
+
+    <button
+      onclick="doSomething()"
+      font-size="50px"
+      style="background-color: red; color: white"
+    >
+      onclick
+    </button>
+    <p id="greeting">Hello</p>
+    <script>
+      function doSomething() {
+        document.getElementById("greeting").innerHTML = "goodbye";
+      }
+    </script>
+
+    <form
+      action="index.php"
+      method="post"
+      method="get"
+      enctype="multipart/form-data"
+    >
+      <label for="username">username</label>
+      <input
+        type="text"
+        id="username"
+        minlength="9"
+        maxlength="15"
+        placeholder="username"
+        required
+      />
+      <br />
+      <label for="password">password</label>
+      <input
+        type="password"
+        id="password "
+        minlength="9"
+        maxlength="15"
+        placeholder="password"
+        required
+      /><br />
+
+      <label for="email">email:</label>
+      <input type="email" id="email" placeholder="email" /><br />
+
+      <label for="phone">phone:</label>
+      <input
+        type="tel"
+        id="phone"
+        placeholder="phonenumber"
+        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+      /><br />
+
+      <label for="quantity">quantity</label>
+      <input
+        type="number"
+        id="quantity"
+        placeholder="number"
+        min="0"
+        max="99"
+        value="1"
+      /><br />
+
+      <label for="birthday">birthday</label>
+      <input type="date" id="brithday" placeholder="date of brith" /><br />
+
+      <label for="title">title</label>
+
+      <label for="mr.">mr.</label>
+      <input type="radio" id="mr." value="mr." name="title" />
+
+      <label for="ms.">ms.</label>
+      <input type="radio" id="ms." value=" ms." name="title" />
+
+      <label for="phd.">phd.</label>
+      <input type="radio" id="phd." value="phd." name="title" /><br />
+
+      <label for="payment">payment</label>
+      <select name="payment" id="payment">
+        <option value="visa">visa</option>
+        <option value="mastercard0">mastercard</option>
+        <option value="gifcard">gifcard</option></select
+      ><br />
+
+      <label for="subscribe">subscribe</label>
+      <input type="checkbox" id="subscribe" /><br />
+
+      <label for="comment">comment</label>
+      <textarea id="comment" cols="30" rows="5"></textarea><br />
+
+      <label for="file">file</label>
+      <input type="file" id="file" accept="image/png," /><br /><br /><br />
+
+      <input type="reset" />
+      <input type="submit" />
+
+      <header>
+        <h1>welcome to avg</h1>
+        <a href="">home</a>
+        <a href="">pruducts</a>
+        <a href="">sales</a>
+        <a href="">contact us</a>
+        <hr />
+      </header>
+
+      <main>
+        <h2>this is the image of kgf</h2>
+        <img
+          src="kgf1.jpg"
+          alt="image of kgf"
+          title="kgf picture"
+          height="200px"
+        />
+        <pre>
+Rocky, a young man, seeks power and wealth 
+          in order to fulfil a promise to his dying mother. 
+          His quest takes him to Mumbai, where he becomes 
+          involved with the notorious gold mafia.</pre
+        >
+        <hr />
+      </main>
+
+      <footer>
+        author:prshanth neel <br />
+        &copy;copyright recieved <br />
+        <a href="https://en.wikipedia.org/wiki/KGF:_Chapter_1">kgf story</a>
+      </footer>
+    </form>
+
+    <div class="div1">
+      <h1>the salar story</h1>
+      <img
+        id="img1"
+        src="salar1.jpg"
+        alt="this is the picture of salar"
+        height="200px"
+      />
+      <p>
+        Salaar: Part 1 – Ceasefire (transl. Commander) is a 2023 Indian
+        Telugu-language epic action film written and directed by Prashanth Neel
+        and produced by Vijay Kiragandur. It stars Prabhas and Prithviraj
+        Sukumaran, with a supporting cast that includes Shruti Haasan, Jagapathi
+        Babu, Bobby Simha, Tinnu Anand, Easwari Rao, Sriya Reddy and Ramachandra
+        Raju.
+      </p>
+      <br />
+      <h1>the hinana story</h1>
+      <img
+        class="hinana"
+        src="HiNana1.webp"
+        alt="this is the picture of hinana"
+        height="200px"
+      />
+      <p>
+        Hi Nanna (transl. Hi Dad) is a 2023 Indian Telugu-language romantic
+        drama film directed by Shouryuv in his directorial debut. The film stars
+        Nani and Mrunal Thakur in the lead roles, alongside Kiara Khanna,
+        Priyadarshi Pulikonda, Angad Bedi, Jayaram and Viraj Ashwin in
+        supporting roles. The music was composed by Hesham Abdul Wahab, while
+        the cinematography and editing were handled by Sanu Varghese and Praveen
+        Anthony.
+      </p>
+      <br />
+    </div>
+    <br />
+
+    <div class="div2">
+      <p>
+        Cadbury Dairy Milk is a British brand of milk chocolate manufactured by
+        Cadbury. It was introduced in the United Kingdom in June 1905 and now
+        consists of a number of products. Every product in the Dairy Milk line
+        is made with exclusively milk chocolate. In 1928, Cadbury's introduced
+        the "glass and a half" slogan to accompany the Dairy Milk chocolate bar,
+        to advertise the bar's higher milk content.[1]
+      </p>
+    </div>
+    <br /><br />
+
+    <div class="div4">div</div>
+    <span>span</span>
+
+    <div class="container">
+      <div class="div5">
+        <h2>this is frist paragraph</h2>
+        <p>
+          Cadbury Dairy Milk is a British brand of milk chocolate manufactured
+          by Cadbury. It was introduced in the United Kingdom in June 1905 and
+          now consists of a number of products. Every product in the Dairy Milk
+          line is made with exclusively milk chocolate. In 1928, Cadbury's
+          introduced the "glass and a half" slogan to accompany the Dairy Milk
+          chocolate bar, to advertise the bar's higher milk content.[1]
+        </p>
+      </div>
+      <div class="div5">
+        <h2>this is frist paragraph</h2>
+        <p>
+          Cadbury Dairy Milk is a British brand of milk chocolate manufactured
+          by Cadbury. It was introduced in the United Kingdom in June 1905 and
+          now consists of a number of products. Every product in the Dairy Milk
+          line is made with exclusively milk chocolate. In 1928, Cadbury's
+          introduced the "glass and a half" slogan to accompany the Dairy Milk
+          chocolate bar, to advertise the bar's higher milk content.[1]
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

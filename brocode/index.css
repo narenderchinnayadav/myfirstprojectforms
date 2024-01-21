@@ -1,0 +1,29 @@
+#id1{
+  height: 200px;
+  width: 200px;
+  background-color: lightgreen;
+  text-align: center;
+ position: fixed;
+   top: 200px;
+   left: 200px;
+  }
+#id1{
+  height: 100px;
+  width: 100px;
+  background-color:red;
+  text-align: center;
+ position: relative;
+}
+body {
+  background-image: url(backgroundimage1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+h1 {
+  color: white
+}
+p{
+  color: white;
+}
